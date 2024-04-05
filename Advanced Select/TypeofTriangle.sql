@@ -1,3 +1,5 @@
+-- Type of Triangle
+
 SELECT
 CASE
 WHEN A + B <= C OR A + C <= B OR B + C <= A THEN "Not A Triangle"
